@@ -10,5 +10,4 @@ def compute_revenue_share(df, groupby_columns):
 
 
 def load_data_from_database_table(*args, **kwargs):
-    df = bam.get_sales_df()
-    return df
+    return bam.get_sales_df()
